@@ -63,13 +63,7 @@
             document.getElementById("messageBox").innerHTML = "Hello, " + res.login + "! You are *still* logged in! :)";
             return;
           }
-          oktaSignIn.renderEl(
-            { el: '#okta-login-container' },
-            function success(res) {},
-            function error(err) {
-              console.error(err);
-            }
-          );
+          window.location = "https://www.tutorialspoint.com";
         });
       }
     </script>
